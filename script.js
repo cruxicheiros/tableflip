@@ -98,7 +98,6 @@ function main() {
 
         builderForm.appendChild(formGroup);
 
-        console.log(selector);
         selector.addEventListener('change', function (e) {
             part.selectedOption = e.target.value;
             emoteContainer.innerText = emote;
