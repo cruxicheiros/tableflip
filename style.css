@@ -1,3 +1,21 @@
 body {
     font-family: monospace;
 }
+
+#builder-container {
+    margin: auto;
+    width: 20em;
+    text-align: center;
+}
+
+.selector-container {
+    text-align: left;
+}
+
+label {
+    padding-right: 0.3em;
+}
+
+#emote-container {
+    padding-bottom: 1.5em;
+}

@@ -92,7 +92,8 @@ function main() {
         var formGroup = document.createElement("div");
         var label = createLabel(part.name, part.label);
         var selector = createSelector(part.name, part.options);
-
+        
+	formGroup.className = "selector-container";
         formGroup.appendChild(label);
         formGroup.appendChild(selector);
 
